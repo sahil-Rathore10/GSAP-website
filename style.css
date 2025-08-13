@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+nav h1 {
+  font-size: 2.5vw;
+}
+nav h4 {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+nav button {
+  padding: 10px 20px;
+  font-size: 1.3vw;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
