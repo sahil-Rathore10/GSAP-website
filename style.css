@@ -19,7 +19,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 50px;
+  padding: 30px 50px;
 }
 .part2 {
   display: flex;
@@ -37,6 +37,8 @@ nav h4 {
 nav button {
   padding: 10px 20px;
   font-size: 1.3vw;
-  border-radius: 5px;
+  background-color: transparent;
+  border-radius: 8px;
+  font-weight: 600;
   border: 1px solid #000;
 }
